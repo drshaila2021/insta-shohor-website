@@ -87,47 +87,46 @@
       <div id="reported">
         <h1>Reported posts</h1>
       </div>
+
+      <!-- section for question's answer -->
     </main>
 
     <section id="answer">
-      <div>
-        <h5>How does JavaScript work?</h5>
-        <p>
-          JavaScript is an interpreated, single threaded, non blocking
-          programming language which works through chrome V8 engine (or sprider
-          monkey ...) under the hood. When a JavaScript code execution is
-          triggered in an environment where JS enginer is present, it first goes
-          to the parser. Parser checks the code and generate the Abstract Syntax
-          Tree (AST) if no error found. Then the Interpreter gets the AST and
-          converts it into Intermediate Representation of code like Bytecode.
-          And finally the Compiler(most of the cases Just-in-Time) take the
-          Bytecode and turn it into machine code.
-        </p>
+      <h5>How does JavaScript work?</h5>
+      <p>
+        JavaScript is an interpreated, single threaded, non blocking programming
+        language which works through chrome V8 engine (or sprider monkey ...)
+        under the hood. When a JavaScript code execution is triggered in an
+        environment where JS enginer is present, it first goes to the parser.
+        Parser checks the code and generate the Abstract Syntax Tree (AST) if no
+        error found. Then the Interpreter gets the AST and converts it into
+        Intermediate Representation of code like Bytecode. And finally the
+        Compiler(most of the cases Just-in-Time) take the Bytecode and turn it
+        into machine code.
+      </p>
 
-        <h5>What does JavaScript event loop do?</h5>
-        <p>
-          Java script event loop is a process or machanism which continuosly
-          runs and monitors call stack and callback queue/microtask queue. When
-          call stack is empty, it pulls function from callback queue/microtask
-          queue and sends to call stack. Here call stack is a data structure
-          that keeps track of function is called and callback queue/microtask
-          queue holds the functions that are coming when browser api wait or
-          promise is ready.
-        </p>
+      <h5>What does JavaScript event loop do?</h5>
+      <p>
+        Java script event loop is a process or machanism which continuosly runs
+        and monitors call stack and callback queue/microtask queue. When call
+        stack is empty, it pulls function from callback queue/microtask queue
+        and sends to call stack. Here call stack is a data structure that keeps
+        track of function is called and callback queue/microtask queue holds the
+        functions that are coming when browser api wait or promise is ready.
+      </p>
 
-        <h5>
-          What are the differences between local storage and session storage?
-        </h5>
-        <p>
-          Local storage and session storage are storages used by browser and
-          stores in the client machine. The main differance between local
-          storage and session storage is for local storage does not get expired
-          even the session is competed or browser is closed. And for session
-          storage data is cleaned when page session is completed. Local stotage
-          data is accessable through accress browser pages while session storage
-          is only confined to that particular page.
-        </p>
-      </div>
+      <h5>
+        What are the differences between local storage and session storage?
+      </h5>
+      <p>
+        Local storage and session storage are storages used by browser and
+        stores in the client machine. The main differance between local storage
+        and session storage is for local storage does not get expired even the
+        session is competed or browser is closed. And for session storage data
+        is cleaned when page session is completed. Local stotage data is
+        accessable through accress browser pages while session storage is only
+        confined to that particular page.
+      </p>
     </section>
 
     <footer></footer>
